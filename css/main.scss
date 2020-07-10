@@ -97,16 +97,17 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../images/gym-banner.jpg);
+    background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
   padding: $section-padding;
 
   @media (max-width: 767px) {
     padding: 2em;
   }
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/gym-banner.jpg);
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
 
   .content {
     position: relative;

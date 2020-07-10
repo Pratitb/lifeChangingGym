@@ -1,3 +1,4 @@
+//NAV BAR STYLING********************
 window.onscroll = function () {
   scrollFunction();
 };
@@ -9,6 +10,8 @@ function scrollFunction() {
     document.getElementById("header").style.background = "transparent";
   }
 }
+
+//MOBILE MENU********************
 
 let menu = document.querySelector('#mobile');
 let mobileLinks = document.querySelector('#mobile a');
@@ -26,6 +29,8 @@ menu.addEventListener('click', hideMenu)
 function hideMenu(){
   menu.style.display = 'none';
 }
+
+//OWL CAROUSEL******************
 
 $(".owl-carousel").owlCarousel({
   loop: true,
@@ -72,3 +77,7 @@ $(".contact-owl-carousel").owlCarousel({
     },
   },
 });
+
+AOS.init({
+  duration: 3000
+ });
