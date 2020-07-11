@@ -2,7 +2,7 @@
 
 Gym Landing Page made using HTML5, CSS3, Flexbox and JavaScript
 
-Fitness centers usually have limited content to show their visitor.
+Fitness centers usually have limited content to show their visitor. A landing would do just fine for them.
 
 So I have created a page with a banner section that immediately attracts the visitor.
 
