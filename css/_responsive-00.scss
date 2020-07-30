@@ -80,6 +80,10 @@
         }
     }
     .contact{
+        a{
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
         flex-direction: column;
         input{
             width: 250px;

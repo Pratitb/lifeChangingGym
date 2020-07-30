@@ -545,6 +545,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact a {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
   .contact input {
     width: 250px;
     padding: 1em;
