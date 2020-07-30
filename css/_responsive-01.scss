@@ -1,4 +1,4 @@
-@media(min-width:320px) and (max-width:360px){
+@media(min-width:361px) and (max-width:375px){
     .mobile{
         padding: 0.5em;
         top: 0em;
@@ -26,10 +26,10 @@
         padding: 2em;
         .content{
             h1{
-                font-size: 1.5em;
+                font-size: 2em;
             }
             p{
-                font-size: 1.2em;
+                font-size: 1.5em;
             }
         }
     }
@@ -40,7 +40,7 @@
                 font-size: 1em;
             }
             i{
-                font-size: 1.7em;
+                font-size: 2em;
             }
         }
     }
@@ -59,7 +59,7 @@
         .option{
             padding: 1em;
             margin-bottom: 2em;
-            width: 250px;
+            width: 320px;
             ul{
                 margin-bottom: 1em;
             }
@@ -72,10 +72,10 @@
                 margin-bottom: 1em;
             }
             li{
-                font-size: 0.8em;
+                font-size: 1em;
             }
             a{
-                font-size: 0.8em;
+                font-size: 0.9em;
                 padding: 0.5em;
             }
         }

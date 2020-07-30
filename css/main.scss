@@ -291,7 +291,7 @@ body {
 }
 
 /*MOBILE MENU-------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .mobile-menu {
     display: none;
   }
@@ -329,3 +329,6 @@ body {
 }
 
 @import 'responsive-00';
+@import 'responsive-01';
+@import 'responsive-02';
+@import 'ipads';
