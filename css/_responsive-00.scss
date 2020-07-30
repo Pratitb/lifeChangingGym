@@ -1,0 +1,89 @@
+@media(min-width:320px) and (max-width:360px){
+    .mobile{
+        padding: 0.5em;
+        top: 0em;
+        a{
+            font-size: 0.8em;
+        }
+    }
+    .mobile-menu{
+        font-size: 1.3em;
+        margin-right: 0.2em;
+    }
+    #header{
+        padding: 0.5em;
+        .brand-name{
+            span{
+                margin-left: 0.5em;
+            }
+        }
+        ul{
+            display: none;
+        }
+    }
+    .banner{
+        padding: 2em;
+        .content{
+            h1{
+                font-size: 1.5em;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+    }
+    .facilities{
+        padding: 2em;
+        .feature{
+            h1{
+                font-size: 1em;
+            }
+            i{
+                font-size: 1.7em;
+            }
+        }
+    }
+    .about{
+        padding: 2em;
+        .content-about{
+            max-width: 100%;
+            h1{
+                font-size: 0.8em;
+                line-height: 1;
+            }
+        }
+    }
+    .members{
+        padding: 1em;
+        .option{
+            padding: 1em;
+            margin-bottom: 2em;
+            width: 250px;
+            ul{
+                margin-bottom: 1em;
+            }
+            h1{
+                font-size: 1.5em;
+                margin-bottom: 1em;
+            }
+            h2{
+                font-size: 1.5em;
+                margin-bottom: 1em;
+            }
+            li{
+                font-size: 1em;
+            }
+            a{
+                font-size: 0.8em;
+                padding: 0.5em;
+            }
+        }
+    }
+    .contact{
+        flex-direction: column;
+        input{
+            width: 250px;
+            padding: 1em;
+        }
+    }
+}
