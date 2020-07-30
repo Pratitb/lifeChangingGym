@@ -32,7 +32,7 @@ function hideMenu(){
 
 //OWL CAROUSEL******************
 
-$(".owl-carousel").owlCarousel({
+$(".owl-carousel, .contact-owl-carousel").owlCarousel({
   loop: true,
   autoplaySpeed: 2000,
   autoplayTimeout: 5000,
@@ -55,29 +55,8 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
-$(".contact-owl-carousel").owlCarousel({
-  loop: true,
-  autoplaySpeed: 2000,
-  autoplayTimeout: 5000,
-  autoplay: true,
-  margin: 10,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: true,
-    },
-    600: {
-      items: 1,
-      nav: false,
-    },
-    1000: {
-      items: 1,
-      nav: true,
-    },
-  },
-});
+
 
 AOS.init({
-  duration: 3000
+  duration: 2000,
  });
