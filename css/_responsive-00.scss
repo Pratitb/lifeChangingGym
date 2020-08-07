@@ -81,6 +81,7 @@
         }
     }
     .contact{
+        padding: 2em;
         .form{
             margin-top: 2em;
         }
@@ -96,5 +97,8 @@
                 font-size: 1em;
             }
         }
+    }
+    .owl-carousel{
+        max-width: 250px;
     }
 }
