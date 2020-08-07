@@ -1032,4 +1032,250 @@ body {
     font-size: 1.3em;
   }
 }
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .mobile {
+    padding: 0.5em;
+    top: 0em;
+    min-height: 70vh;
+    display: none;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile a {
+    font-size: 0.8em;
+    color: #292828;
+  }
+  .mobile-menu {
+    font-size: 1.7em;
+    margin-right: 0.2em;
+  }
+  #header {
+    padding: 1em;
+  }
+  #header .brand-name {
+    font-size: 2em;
+  }
+  #header .brand-name span {
+    margin-left: 0.5em;
+  }
+  #header ul {
+    margin: 0em 5em 0em 0em;
+  }
+  #header ul a {
+    font-size: 1.3em;
+  }
+  .banner {
+    padding: 2em;
+  }
+  .banner .content h1 {
+    font-size: 3em;
+  }
+  .banner .content p {
+    font-size: 2.5em;
+  }
+  .facilities {
+    padding: 2em;
+  }
+  .facilities .feature h1 {
+    font-size: 1.3em;
+  }
+  .facilities .feature i {
+    font-size: 4em;
+  }
+  .about {
+    padding: 2em;
+  }
+  .about .content-about {
+    max-width: 500px;
+  }
+  .about .content-about h1 {
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
+  .about .owl-carousel {
+    max-width: 450px;
+  }
+  .members {
+    min-height: 100vh;
+    padding: 2em 0em;
+  }
+  .members .option {
+    padding: 3em;
+    margin-bottom: 2em;
+    width: 300px;
+  }
+  .members .option ul {
+    margin-bottom: 1em;
+  }
+  .members .option h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  .members .option h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  .members .option li {
+    font-size: 1em;
+  }
+  .members .option a {
+    font-size: 0.9em;
+    padding: 0.5em;
+  }
+  .contact {
+    min-height: 100vh;
+    padding: 6em 0em;
+  }
+  .contact .form {
+    margin-top: 2em;
+  }
+  .contact a {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  .contact input {
+    width: 450px;
+    padding: 0.8em;
+  }
+  .contact input::-webkit-input-placeholder {
+    font-size: 1em;
+  }
+  .contact input:-ms-input-placeholder {
+    font-size: 1em;
+  }
+  .contact input::-ms-input-placeholder {
+    font-size: 1em;
+  }
+  .contact input::placeholder {
+    font-size: 1em;
+  }
+}
+
+/*FOR MORE THAN 1000PX*/
+@media (min-width: 1000px) and (max-width: 1025px) {
+  .mobile {
+    padding: 0.5em;
+    top: 0em;
+    min-height: 70vh;
+    display: none;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile a {
+    font-size: 0.8em;
+    color: #292828;
+  }
+  .mobile-menu {
+    font-size: 1.8em;
+    margin-right: 0.2em;
+  }
+  #header {
+    padding: 1.2em;
+  }
+  #header .brand-name {
+    font-size: 3em;
+  }
+  #header .brand-name span {
+    margin-left: 0.5em;
+  }
+  #header ul {
+    display: none;
+  }
+  .banner {
+    padding: 2em;
+  }
+  .banner .content h1 {
+    font-size: 4em;
+  }
+  .banner .content p {
+    font-size: 3em;
+  }
+  .facilities {
+    padding: 2em;
+  }
+  .facilities .feature h1 {
+    font-size: 1.7em;
+  }
+  .facilities .feature i {
+    font-size: 6em;
+  }
+  .about {
+    padding: 2em;
+  }
+  .about .content-about {
+    max-width: 900px;
+  }
+  .about .content-about h1 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .about .owl-carousel {
+    max-width: 600px;
+  }
+  .members {
+    min-height: 70vh;
+    padding: 4em;
+  }
+  .members .option {
+    padding: 2em;
+    margin-bottom: 2em;
+    width: 500px;
+  }
+  .members .option ul {
+    margin-bottom: 1em;
+  }
+  .members .option h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  .members .option h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  .members .option li {
+    font-size: 1.5em;
+  }
+  .members .option a {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .form {
+    margin-top: 1em;
+  }
+  .contact a {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  .contact input {
+    width: 500px;
+    padding: 1.5em;
+  }
+  .contact input::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  .contact input:-ms-input-placeholder {
+    font-size: 1.3em;
+  }
+  .contact input::-ms-input-placeholder {
+    font-size: 1.3em;
+  }
+  .contact input::placeholder {
+    font-size: 1.3em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
